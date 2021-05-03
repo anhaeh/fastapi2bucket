@@ -6,8 +6,8 @@ with Amazon S3's buckets. You can push, list and delete files.
 This service has an internal cache for the lists objects. If you add 
 or delete any file, this refresh the cache (considering the optional prefix).
 
-For the moment, it has a redis client and a null client, but it could extend
-with other cache clients (see cache.py).
+For the moment, it has a redis client and a null client, but it could be extended
+with other clients (see cache.py).
 
 
 `.env.sample` is an example configuration for the service.
