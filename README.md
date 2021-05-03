@@ -40,11 +40,15 @@ with other cache clients (see cache.py).
 
 # REST API
 
-The REST API contains 3 endpoints, to list, upload and delete files.
+The REST API contains 4 endpoints:
+- Status service
+- Get files
+- Upload a file
+- Delete file
+
 All the endpoints has an optional query param `prefix`.
 
 ## Get service status
-
 ### Request
 
 `GET /status/`
@@ -61,7 +65,6 @@ All the endpoints has an optional query param `prefix`.
 
 
 ## Get list of Files
-
 ### Request
 
 `GET /items/`
@@ -95,7 +98,6 @@ All the endpoints has an optional query param `prefix`.
     ]
 
 ## Upload a file
-
 ### Request
 
 `POST /items/`
@@ -114,7 +116,6 @@ All the endpoints has an optional query param `prefix`.
     { image_url": "https://bucket.s3.amazonaws.com/my_file.txt" }
 
 ## Delete a file
-
 ### Request
 
 `DELETE /items/`
