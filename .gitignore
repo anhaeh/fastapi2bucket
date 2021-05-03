@@ -1,0 +1,9 @@
+*.swp
+*.pyc
+env/
+*.cfg
+log/
+.coverage
+htmlcov/
+*.env
+.idea
