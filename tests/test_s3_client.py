@@ -28,7 +28,7 @@ class TestS3Client(BaseTest):
                     'ETag': '"f9c6049f17006504d1981a16385980d8"', 'Size': 369155, 'StorageClass': 'STANDARD',
                     'Owner': {
                         'DisplayName': 'cto',
-                        'ID': '59604054b3e736e42d902be7c00d15dc1f6360eb93c900ca17eaa2b5890bcaf2'
+                        'ID': '123456'
                     }
                 }
             ]
