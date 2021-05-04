@@ -61,7 +61,7 @@ class TestS3Client(BaseTest):
         mock_client.delete_objects.return_value = {
             "Deleted": [
                 {
-                    "Key": "dev/logo-tools/xx/tunnel_16105643036960301.jpg"
+                    "Key": "prefix/tunnel_16105643036960301.jpg"
                 }
             ],
             "ResponseMetadata": {}
