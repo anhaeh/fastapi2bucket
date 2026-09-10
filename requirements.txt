@@ -1,4 +1,5 @@
 click==8.5.0
+pydantic-settings==2.10.1
 fastapi==0.141.1
 h11==0.16.0
 pydantic==2.13.5
